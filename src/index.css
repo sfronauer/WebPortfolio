@@ -1,0 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 2rem;  /* default */
+}
+
+@media (min-width: 768px) {
+  [id] {
+    scroll-margin-top: 5rem; /* größere Navbar auf Desktop */
+  }
+}
+
