@@ -1,7 +1,7 @@
 function ProjectCard({ title, description, technologies = [], url }) {
   return (
     <div className="w-full h-96 flex items-center justify-center">
-      <div className="card card-side bg-base-300 shadow-sm w-full h-full">
+      <div className="card card-side bg-base-300 shadow-sm w-full h-full rounded-xl overflow-hidden">
         <figure className="w-1/2 h-full">
           <img
             src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
