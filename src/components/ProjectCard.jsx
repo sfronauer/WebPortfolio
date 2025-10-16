@@ -1,7 +1,7 @@
 function ProjectCard({ title, description, technologies = [], url }) {
   return (
     <div className="w-full h-96 flex items-center justify-center">
-      <div className="card card-side bg-base-300 shadow-sm w-full h-full rounded-xl overflow-hidden">
+      <div className="card card-side bg-base-200 shadow-sm w-full h-full rounded-xl overflow-hidden ">
         <figure className="w-1/2 h-full">
           <img
             src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
@@ -10,9 +10,9 @@ function ProjectCard({ title, description, technologies = [], url }) {
           />
         </figure>
         <div className="card-body w-1/2">
-          <h2 className="card-title">{title}</h2>
-          <p>{description}</p>
-           <div className="flex flex-wrap gap-2 mt-2">
+          <h2 className="card-title text-2xl">{title}</h2>
+          <p className="mt-4 text-lg">{description}</p>
+           <div className="flex flex-wrap gap-2 mt-2 pb-4">
             {technologies.map((t, index) => (
               <span
                 key={index}

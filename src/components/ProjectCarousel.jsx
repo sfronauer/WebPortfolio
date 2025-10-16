@@ -43,8 +43,8 @@ function App() {
 
   return (
     <>
-    
-      <div className="relative basis-8/12 overflow-hidden rounded-xl mt-30">
+
+      <div className="relative basis-8/12 overflow-hidden rounded-xl mt-30 ">
         <div className="text-3xl font-bold mb-4">Projects</div>
         <div
           className="flex transition-transform duration-500 ease-in-out"
@@ -81,7 +81,7 @@ function App() {
           ))}
         </div>
       </div>
-     
+
     </>
   );
 }

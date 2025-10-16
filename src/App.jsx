@@ -7,15 +7,17 @@ import InfoCard from "./components/InfoCard";
 import NavBar from "./components/NavBar";
 import ProjectCarousel from "./components/ProjectCarousel";
 import Timeline from "./components/Timeline";
+import FadeInSection from "./components/FadeInSection";
 
 function App() {
   return (
-    <>
+    <div className="">
       <NavBar></NavBar>
 
       <Banner></Banner>
 
-      <div className="max-w-4xl mx-auto px-4 pt-16">
+      <FadeInSection>
+      <div className="max-w-4xl mx-auto px-4 pt-16 flex-grow">
         <div id="about">
           <About></About>
         </div>
@@ -44,10 +46,11 @@ function App() {
       </div>
       <div id="contact">
         <ContactForm></ContactForm>
-      </div>
+        </div>
+        </FadeInSection>
 
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 
