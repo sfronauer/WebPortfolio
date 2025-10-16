@@ -22,6 +22,7 @@ function ProjectCard({ title, description, technologies = [], url }) {
               </span>
             ))}
            </div>
+          {url && <a href={url} target="_blank" className="text-blue-100 text-lg underline mb-5 ml-1">View project</a>}
         </div>
       </div>
     </div>
