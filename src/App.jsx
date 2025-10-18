@@ -8,10 +8,12 @@ import NavBar from "./components/NavBar";
 import ProjectCarousel from "./components/ProjectCarousel";
 import Timeline from "./components/Timeline";
 import FadeInSection from "./components/FadeInSection";
+import ParticlesBackground from "./components/ParticleBackground";
 
 function App() {
   return (
     <div className="">
+      <ParticlesBackground></ParticlesBackground>
       <NavBar></NavBar>
 
       <Banner></Banner>

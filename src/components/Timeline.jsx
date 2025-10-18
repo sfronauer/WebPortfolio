@@ -1,9 +1,10 @@
 function Timeline() {
   return (
     <>
-      <div className="mt-40">
-        <div className="text-3xl font-bold mb-10">Educational background</div>
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical bg-base-200 rounded-xl">
+      <div className="mt-30">
+        <div className="text-3xl font-bold mb-5">Educational background</div>
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical bg-base-200 pt-10 pb-2 p-5 shadow-lg shadow-primary/20
+           rounded-2xl hover:scale-105 transition-transform duration-300 ease-out">
           <li>
             <div className="timeline-middle">
               <svg

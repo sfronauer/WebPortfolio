@@ -1,13 +1,12 @@
 function Banner() {
   return (
     <>
-      <div>
-        <div className="w-full">
-          {/* <img src="banner.gif" alt="" className="w-full h-[27%] object-cover"></img> */}
+      <div className="relative">
+        <div className=" relative w-full h-[9rem] sm:h-[11rem] md:h-[14rem] lg:h-[24rem] xl:h-[40rem] 2xl:h-[32rem]">
           <img
             src={`${import.meta.env.BASE_URL}banner.gif`}
             alt="Banner"
-            className="w-full h-[27%] object-cover"
+            className="absolute w-full h-full object-cover md:object-top"
           />
         </div>
       </div>
